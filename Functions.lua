@@ -54,9 +54,9 @@ function LibHyper.deepcopy(orig, copies)
             copy = {}
             copies[orig] = copy
             for orig_key, orig_value in next, orig, nil do
-                copy[TT_deepcopy(orig_key, copies)] = TT_deepcopy(orig_value, copies)
+                copy[LibHyper.deepcopy(orig_key, copies)] = LibHyper.deepcopy(orig_value, copies)
             end
-            setmetatable(copy, TT_deepcopy(getmetatable(orig), copies))
+            setmetatable(copy, LibHyper.deepcopy(getmetatable(orig), copies))
         end
     else
         -- number, string, boolean, etc

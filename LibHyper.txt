@@ -1,8 +1,8 @@
-## APIVersion: 101033
-## Title: HodorRestyle
-## Version: 0.1
+## APIVersion: 101036
+## Title: LibHyper
+## Version: 1.0
 ## Author: Hyperioxes
-## Description: Hodor Restyle
+## Description: Various functions, textures and fonts used in Hyperioxes' addons
 ## IsLibrary: true
 
 ; This Add-on is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates. 
