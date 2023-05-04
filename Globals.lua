@@ -29,6 +29,15 @@ LibHyper = {
         [6] = {1, 0.8, 0, 1}, --Templar
     },
     fonts = {
+        ['Base Game Medium'] = 'EsoUI/Common/Fonts/Univers57.otf',
+        ['Base Game Bold'] = 'EsoUI/Common/Fonts/Univers67.otf',
+        ['Base Game Chat'] = 'EsoUI/Common/Fonts/Univers57.otf',
+        ['Base Game Antique'] = 'EsoUI/Common/Fonts/ProseAntiquePSMT.otf',
+        ['Base Game Gamepad Bold'] = 'EsoUI/Common/Fonts/FTN87.otf',
+        ['Base Game Gamepad Light'] = 'EsoUI/Common/Fonts/FTN47.otf',
+        ['Base Game Gamepad Medium'] = 'EsoUI/Common/Fonts/FTN57.otf',
+        ['Base Game Handwritten'] = 'EsoUI/Common/Fonts/Handwritten_Bold.otf',
+        ['Base Game Stone Tablet'] = 'EsoUI/Common/Fonts/TrajanPro-Regular.otf',
         ['Barlow Semi-Condensed Semi-Bold'] = 'LibHyper/fonts/BarlowSemiCondensed-SemiBold.otf',
         ['Generica'] = 'LibHyper/fonts/generica.otf',
         ['Generica Bold'] ='LibHyper/fonts/genericaBold.otf',
@@ -47,6 +56,7 @@ LibHyper = {
     },
 
     barTextures = {
+        ['Plain'] = '',
         ['Banto Bar'] = 'LibHyper/barTextures/BantoBar.dds',
         ['Gradient Bar'] = 'LibHyper/barTextures/GradientBar.dds',
         ['Gradient Bar 2'] = 'LibHyper/barTextures/GradientBar2.dds',
