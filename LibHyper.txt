@@ -1,6 +1,6 @@
 ## APIVersion: 101036
 ## Title: LibHyper
-## Version: 1.0
+## Version: 1.1
 ## Author: Hyperioxes
 ## Description: Various functions, textures and fonts used in Hyperioxes' addons
 ## IsLibrary: true
