@@ -120,3 +120,13 @@ function LibHyper.checkIfItemSetsEquipped(itemSetTable)
     end
     return false
 end
+
+function LibHyper.getUnitTagFromCharacterName(characterName)
+    characterName = LibHyper.removeGenderIndicator(characterName)
+    for i = 1, 12 do
+        local unitTag = "group" .. i
+        if GetUnitName(unitTag) == characterName then
+            return unitTag
+        end
+    end
+end
